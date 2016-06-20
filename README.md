@@ -24,4 +24,4 @@
 # cd docker-lnmp
 # docker-compose up -d
 ```
-如果没有安装 `docker-compose` 请先[安装](https://github.com/docker/compose/releases/)
+> 一般安装docker的时候就会自动安装docker-compose,如果没有安装 `docker-compose` 请先[安装](https://github.com/docker/compose/releases/)
