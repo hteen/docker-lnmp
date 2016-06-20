@@ -14,7 +14,7 @@
 # curl -sSL https://get.daocloud.io/docker | sh
 ```
 
-#### gi clone
+#### clone
 ```linux
 # git clone https://github.com/hteen/docker-lnmp.git
 ```
