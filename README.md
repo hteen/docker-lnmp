@@ -4,8 +4,8 @@
 * Nginx
 * Redis
 
-## 启动
-1. 安装docker
+
+#### 安装docker
 ```linux
 # curl -fsSL https://get.docker.com/ | sh
 ```
@@ -14,18 +14,18 @@
 # curl -sSL https://get.daocloud.io/docker | sh
 ```
 
-2. gi clone
+#### gi clone
 ```linux
 # git clone https://github.com/hteen/docker-lnmp.git
 ```
 
-3. 安装docker-compose
+#### 安装docker-compose
 ```linux
 # curl -L https://github.com/docker/compose/releases/download/1.8.0-rc1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 # chmod +x /usr/local/bin/docker-compose
 ```
 
-3. 启动
+#### 启动
 ```linux
 # cd docker-lnmp
 # docker-compose up -d
@@ -37,7 +37,7 @@ Creating dockerlnmp_nginx_1
 ```
 启动ok
 
-4. 测试访问
+#### 测试
 
 > * phpinfo : http://localhost/index.php
 > * mysql : http://localhost/mysql.php
