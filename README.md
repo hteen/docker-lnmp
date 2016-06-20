@@ -38,6 +38,7 @@ Creating dockerlnmp_nginx_1
 启动ok
 
 4. 测试访问
+
 > * phpinfo : http://localhost/index.php
 > * mysql : http://localhost/mysql.php
 > * redis : http://localhost/redis.php
