@@ -15,7 +15,7 @@ redis:
   environment:
   - REDIS_PASS=**None**
 php:
-  image: hteen/php:7.0.7-fpm
+  image: hteen/php
   volumes:
     - ./web:/www
     - ./php.ini:/usr/local/etc/php/php.ini
