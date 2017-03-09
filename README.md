@@ -4,7 +4,6 @@
 * Nginx
 * Redis
 
-
 #### 安装docker
 ```linux
 # curl -fsSL https://get.docker.com/ | sh
